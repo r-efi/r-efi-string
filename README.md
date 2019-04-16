@@ -19,7 +19,7 @@ ISO-8859-1 based string.
 
 The requirements for this project are:
 
- * `rustc >= 1.31.0`
+ * `rustc >= 1.36.0`
 
 ### Build
 
