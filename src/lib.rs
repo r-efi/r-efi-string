@@ -8,14 +8,8 @@
 //!
 //!  * `[str16]`: UCS-2 based strings, which use a `u16` based encoding.
 
-// We currently need some unstable features:
-//
-//  * We use `doc_cfg` to run conditional code in rustdoc compilations. This is, again, related to
-//    `no_std`, since we want to make sure the rustdoc examples still work correctly.
-#![feature(doc_cfg)]
-
-// We do not depend on `libstd`, but pull it in for our unit tests and documentation.
-#![cfg_attr(not(any(test, rustdoc)), no_std)]
+// We do not depend on `libstd`, but pull it in for our unit tests.
+#![cfg_attr(not(test), no_std)]
 
 // We provide converters to/from `alloc::string::String`, so import `liballoc`.
 extern crate alloc;
