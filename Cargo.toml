@@ -25,10 +25,3 @@ keywords = [
 license = "Apache-2.0 OR LGPL-2.1-or-later"
 readme = "README.md"
 repository = "https://github.com/r-util/r-efi-string"
-
-[lib]
-# We do not link to an allocator by default, because we allow the crate user to
-# select one. This, however, makes `doctest` fall over. Sadly, there is no
-# stabilized way to conditionally compile in code for doctests. Therefore, we
-# disable them for now. Maybe some day `cfg(doctest)` will be stabilized...
-doctest = false
