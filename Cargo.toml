@@ -14,7 +14,7 @@ categories = [
 ]
 description = "UEFI String Types and Converters"
 edition = "2018"
-homepage = "https://r-util.github.com/r-efi"
+homepage = "https://github.com/r-efi/r-efi/wiki"
 keywords = [
         "efi",
         "firmware",

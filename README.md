@@ -12,8 +12,8 @@ ISO-8859-1 based string.
 
 ### Project
 
- * **Website**: <https://r-util.github.io/r-efi>
- * **Bug Tracker**: <https://github.com/r-util/r-efi-string/issues>
+ * **Website**: <https://github.com/r-efi/r-efi/wiki>
+ * **Bug Tracker**: <https://github.com/r-efi/r-efi-string/issues>
 
 ### Requirements
 
@@ -31,9 +31,9 @@ cargo build
 
 ### Repository:
 
- - **web**:   <https://github.com/r-util/r-efi-string>
- - **https**: `https://github.com/r-util/r-efi-string.git`
- - **ssh**:   `git@github.com:r-util/r-efi-string.git`
+ - **web**:   <https://github.com/r-efi/r-efi-string>
+ - **https**: `https://github.com/r-efi/r-efi-string.git`
+ - **ssh**:   `git@github.com:r-efi/r-efi-string.git`
 
 ### License:
 
