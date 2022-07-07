@@ -22,6 +22,6 @@ keywords = [
         "uefi",
         "unicode",
 ]
-license = "Apache-2.0 OR LGPL-2.1-or-later"
+license = "MIT OR Apache-2.0 OR LGPL-2.1-or-later"
 readme = "README.md"
 repository = "https://github.com/r-util/r-efi-string"
